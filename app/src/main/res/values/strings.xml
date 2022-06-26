@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EcommerceApp</string>
+    <string name="splash">SplashScreen</string>
+    <string name="signup">SignUp</string>
+    <string name="signin">SignIn</string>
+    <string name="forgetpwd">ForgetPassword</string>
+
+    <string name="profile">Profile</string>
+    <string name="changepwd">ChangePassword</string>
+
+    <string name="home">Home</string>
+
+    <string name="cart">Cart</string>
+    <string name="offers">Offers</string>
+    <string name="address">Address</string>
+    <string name="timeslot">TimeSlots</string>
+    <string name="payment">Payment</string>
+    <string name="success">Success</string>
+</resources>
