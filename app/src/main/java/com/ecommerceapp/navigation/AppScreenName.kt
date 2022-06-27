@@ -1,17 +1,11 @@
 package com.ecommerceapp.navigation
 
-enum class AppScreenName  {
+enum class AppScreenName {
     SPLASH,
-    SIGNIN,
-    SIGNUP,
-    FORGETPASSWORD,
-    CHANGEPASSWORD,
-    PROFILE,
+    SIGNIN, SIGNUP, FORGETPASSWORD, CHANGEPASSWORD, PROFILE,
     HOME,
-    CART,
-    ADDRESS,
-    TIMESLOT,
-    OFFER,
-    PAYMENT,
-    SUCCESS;
+    CART, ADDRESS, TIMESLOT, OFFER, PAYMENT, SUCCESS,
+    MYORDER,
+    SEARCH, FILTER,
+    ABOUTUS, CONTACTUS, TERMS, PRIVACY, SETTINGS, FEEDBACK;
 }

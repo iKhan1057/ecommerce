@@ -1,41 +1,32 @@
 package com.ecommerceapp.screens.payment
 
-import androidx.compose.foundation.layout.*
-import androidx.compose.material.Divider
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.ecommerceapp.R
-import com.ecommerceapp.component.AppButton
-import com.ecommerceapp.component.ScreenGreeting
-import com.ecommerceapp.navigation.AppScreenName
+import com.ecommerceapp.component.AppContent
 
 @Composable
 fun PaymentScreen(navController: NavHostController) {
-    Surface(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(all = 10.dp),
-        color = MaterialTheme.colors.background
-    ) {
-        Column(
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
+    AppContent(navController, title = stringResource(id = R.string.payment)) {
+        Surface(
+            modifier = Modifier
+                .fillMaxSize(),
+            color = MaterialTheme.colors.background
         ) {
-            ScreenGreeting(name = stringResource(id = R.string.payment)) {
-                navController.popBackStack()
-            }
+            Column(
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
 
-            Divider(modifier = Modifier.height(12.dp))
-            AppButton(buttonname = stringResource(id = R.string.success)) {
-                navController.navigate(AppScreenName.SUCCESS.name)
             }
-
         }
     }
 }

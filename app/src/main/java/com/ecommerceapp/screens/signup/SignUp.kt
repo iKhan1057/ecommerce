@@ -9,14 +9,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavController
+import androidx.navigation.NavHostController
 import com.ecommerceapp.R
 import com.ecommerceapp.component.AppButton
 import com.ecommerceapp.component.ScreenGreeting
 import com.ecommerceapp.navigation.AppScreenName
 
 @Composable
-fun SignUpScreen(navController: NavController) {
+fun SignUpScreen(navController: NavHostController) {
     Surface(
         modifier = Modifier
             .fillMaxSize()

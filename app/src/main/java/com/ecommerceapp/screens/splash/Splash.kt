@@ -17,13 +17,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import androidx.navigation.NavHostController
 import com.ecommerceapp.R
 import com.ecommerceapp.component.ScreenGreeting
 import com.ecommerceapp.navigation.AppScreenName
 import kotlinx.coroutines.delay
 
 @Composable
-fun SplashScreen(navController: NavController) {
+fun SplashScreen(navController: NavHostController) {
     val scale = remember {
         Animatable(0f)
     }

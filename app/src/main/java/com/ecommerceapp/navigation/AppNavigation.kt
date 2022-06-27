@@ -4,15 +4,19 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.ecommerceapp.screens.TimeSlotsScreen
+import com.ecommerceapp.screens.timeslots.TimeSlotsScreen
 import com.ecommerceapp.screens.address.AddressScreen
 import com.ecommerceapp.screens.cart.CartScreen
 import com.ecommerceapp.screens.changepwd.ChangePasswordScreen
+import com.ecommerceapp.screens.cms.*
+import com.ecommerceapp.screens.filter.FilterScreen
 import com.ecommerceapp.screens.forgetpwd.ForgetPasswordScreen
 import com.ecommerceapp.screens.home.HomeScreen
 import com.ecommerceapp.screens.offers.OffersScreen
+import com.ecommerceapp.screens.orders.MyOrderScreen
 import com.ecommerceapp.screens.payment.PaymentScreen
 import com.ecommerceapp.screens.profile.ProfileScreen
+import com.ecommerceapp.screens.search.SearchScreen
 import com.ecommerceapp.screens.signin.SignInScreen
 import com.ecommerceapp.screens.signup.SignUpScreen
 import com.ecommerceapp.screens.splash.SplashScreen
@@ -74,5 +78,42 @@ fun AppNavigation() {
         composable(route = AppScreenName.SUCCESS.name) { navBackStackEntry ->
             SuccessScreen(navController)
         }
+
+        composable(route = AppScreenName.MYORDER.name) { navBackStackEntry ->
+            MyOrderScreen(navController)
+        }
+
+        composable(route = AppScreenName.SEARCH.name) { navBackStackEntry ->
+            SearchScreen(navController)
+        }
+
+        composable(route = AppScreenName.FILTER.name) { navBackStackEntry ->
+            FilterScreen(navController)
+        }
+
+        composable(route = AppScreenName.ABOUTUS.name) { navBackStackEntry ->
+            AboutUsScreen(navController)
+        }
+
+        composable(route = AppScreenName.CONTACTUS.name) { navBackStackEntry ->
+            ContactUsScreen(navController)
+        }
+
+        composable(route = AppScreenName.TERMS.name) { navBackStackEntry ->
+            TermsAndCondScreen(navController)
+        }
+
+        composable(route = AppScreenName.PRIVACY.name) { navBackStackEntry ->
+            PrivacyPolicyScreen(navController)
+        }
+
+        composable(route = AppScreenName.SETTINGS.name) { navBackStackEntry ->
+            SettingsScreen(navController)
+        }
+
+        composable(route = AppScreenName.FEEDBACK.name) { navBackStackEntry ->
+            FeedbackScreen(navController)
+        }
+
     }
 }

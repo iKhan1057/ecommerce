@@ -1,4 +1,4 @@
-package com.ecommerceapp.screens.changepwd
+package com.ecommerceapp.screens.orders
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -14,8 +14,8 @@ import com.ecommerceapp.R
 import com.ecommerceapp.component.AppContent
 
 @Composable
-fun ChangePasswordScreen(navController: NavHostController) {
-    AppContent(navController, title = stringResource(id = R.string.changepwd)) {
+fun MyOrderScreen(navController: NavHostController) {
+    AppContent(navController, title = stringResource(id = R.string.myorders)) {
         Surface(
             modifier = Modifier
                 .fillMaxSize(),
