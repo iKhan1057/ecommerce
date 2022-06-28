@@ -29,7 +29,7 @@
         "price": "27",
         "unit": "kg",
         "category": "vegetable",
-        "photo": "https://www.fasalkadaam.com/wp-content/uploads/2022/03/Potato.jpg"
+        "photo": "https://5.imimg.com/data5/ANDROID/Default/2021/2/AZ/UZ/BR/93342038/potatoes-jpg-500x500.jpg"
       },
       {
         "name": "Capsicum",
@@ -43,35 +43,35 @@
         "price": "32",
         "unit": "kg",
         "category": "vegetable",
-        "photo": "https://www.bigbasket.com/media/uploads/p/l/40130385_3-fresho-tomato-local-organically-grown.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg"
       },
       {
         "name": "Green Chilli",
         "price": "60",
         "unit": "kg",
         "category": "vegetable",
-        "photo": "https://www.bigbasket.com/media/uploads/p/l/50000511_7-fresho-chilli-green-organically-grown.jpg"
+        "photo": "https://www.jiomart.com/images/product/original/590003533/green-chilli-200-g-product-images-o590003533-p590003533-0-202203150435.jpg"
       },
       {
         "name": "Papaya",
         "price": "36",
         "unit": "pc",
         "category": "vegetable",
-        "photo": "https://www.bigbasket.com/media/uploads/p/l/40022647_4-fresho-papaya-organically-grown.jpg"
+        "photo": "https://5.imimg.com/data5/DM/BM/MY-46595757/papaya-281kg-29-500x500.png"
       },
       {
         "name": "Bottle Gourd",
         "price": "33",
         "unit": "pc",
         "category": "vegetable",
-        "photo": "https://www.bigbasket.com/media/uploads/p/l/50000468_6-fresho-bottle-gourd-organically-grown.jpg"
+        "photo": "https://m.media-amazon.com/images/I/51-iuawxu4L._SL1036_.jpg"
       },
       {
         "name": "Onion",
         "price": "31",
         "unit": "kg",
         "category": "vegetable",
-        "photo": "https://www.bigbasket.com/media/uploads/p/l/40023472_5-fresho-onion-organically-grown.jpg"
+        "photo": "https://www.freshpoint.com/wp-content/uploads/commodity-red-onion.jpg"
       }
     ]
   }
