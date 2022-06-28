@@ -8,7 +8,28 @@
         "price": "120",
         "unit": "kg",
         "category": "fruit",
-        "photo": "https://toppng.com/uploads/preview/free-png-apple-fruit-png-images-transparent-apple-fruit-desi-  11563106525etnyz5uoyh.png"
+        "photo": "https://5.imimg.com/data5/AK/RA/MY-68428614/apple-250x250.jpg"
+      },
+{
+        "name": "Grapes",
+        "price": "100",
+        "unit": "kg",
+        "category": "fruit",
+        "photo": "https://cf.ltkcdn.net/wine/images/std/165373-800x532r1-grapes.jpg"
+      },
+{
+        "name": "Watermelon",
+        "price": "40",
+        "unit": "kg",
+        "category": "fruit",
+        "photo": "https://4.imimg.com/data4/IB/VC/ANDROID-56873828/product-500x500.jpeg"
+      },
+{
+        "name": "Banana",
+        "price": "60",
+        "unit": "dozen",
+        "category": "fruit",
+        "photo": "https://images.heb.com/is/image/HEBGrocery/000377497"
       },
       {
         "name": "Milk",
@@ -17,12 +38,69 @@
         "category": "milk",
         "photo": "https://toppng.com/uploads/preview/milk-png-11554019731zzc03ngzzv.png"
       },
+{
+        "name": "Cheese",
+        "price": "220",
+        "unit": "pack",
+        "category": "milk",
+        "photo": "https://frugivore-storage.s3.amazonaws.com/media/package/img_one/2020-08-14/Britannia_Pizza_Cheese_-_Block_200gm.jpg"
+      },
+{
+        "name": "Butter",
+        "price": "200",
+        "unit": "kg",
+        "category": "milk",
+        "photo": "https://dailomart.com/wp-content/uploads/2020/09/amul-butter.png"
+      },
+{
+        "name": "Ghee",
+        "price": "200",
+        "unit": "kg",
+        "category": "milk",
+        "photo": "https://www.bigbasket.com/media/uploads/p/xxl/40112229-2_3-fresho-organic-cow-desi-gheetuppa.jpg"
+      },
+{
+        "name": "Paneer",
+        "price": "200",
+        "unit": "kg",
+        "category": "milk",
+        "photo": "https://5.imimg.com/data5/SELLER/Default/2020/12/RC/RP/LW/65519594/new-paneer4-1kg-front-500x500.jpg"
+      },
+
       {
         "name": "Britania",
         "price": "12",
         "unit": "packet",
         "category": "biscuit",
-        "photo": "https://image.similarpng.com/very-thumbnail/2020/08/Cookies-with-cream-on-transparent-background-  PNG.png"
+        "photo": "https://www.suvidhasupermart.com/uploads/suvidha-supermart/products/britannia-milk-bikis-775567_m.jpg"
+      },
+{
+        "name": "Parle G",
+        "price": "3",
+        "unit": "packet",
+        "category": "biscuit",
+        "photo": "https://cdnprod.mafretailproxy.com/sys-master-root/h21/hde/29593544982558/427666_main.jpg_480Wx480H"
+      },
+{
+        "name": "Jim Jam",
+        "price": "12",
+        "unit": "packet",
+        "category": "biscuit",
+        "photo": "https://m.media-amazon.com/images/I/51sZt5maSaL.jpg"
+      },
+{
+        "name": "Bourbon",
+        "price": "12",
+        "unit": "packet",
+        "category": "biscuit",
+        "photo": "https://www.bigbasket.com/media/uploads/p/xxl/40114383_3-bonn-bourbon-cream-biscuits.jpg"
+      },
+{
+        "name": "Hide & Seek",
+        "price": "12",
+        "unit": "packet",
+        "category": "biscuit",
+        "photo": "https://5.imimg.com/data5/GX/LJ/MY-4620137/hide-and-seek-biscuits-500x500.jpg"
       },
       {
         "name": "Potato",
