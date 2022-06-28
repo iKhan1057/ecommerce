@@ -8,12 +8,12 @@
         "price": "120",
         "unit": "kg",
         "category": "fruit",
-        "photo": "https://toppng.com/uploads/preview/free-png-apple-fruit-png-images-transparent-apple-fruit-desi-11563106525etnyz5uoyh.png"
+        "photo": "https://toppng.com/uploads/preview/free-png-apple-fruit-png-images-transparent-apple-fruit-desi-  11563106525etnyz5uoyh.png"
       },
       {
         "name": "Milk",
         "price": "22",
-        "unit": "packet",
+        "unit": "pack",
         "category": "milk",
         "photo": "https://toppng.com/uploads/preview/milk-png-11554019731zzc03ngzzv.png"
       },
@@ -22,14 +22,56 @@
         "price": "12",
         "unit": "packet",
         "category": "biscuit",
-        "photo": "https://image.similarpng.com/very-thumbnail/2020/08/Cookies-with-cream-on-transparent-background-PNG.png"
+        "photo": "https://image.similarpng.com/very-thumbnail/2020/08/Cookies-with-cream-on-transparent-background-  PNG.png"
       },
       {
         "name": "Potato",
         "price": "27",
         "unit": "kg",
         "category": "vegetable",
-        "photo": "https://c.neh.tw/thumb/f/720/comhicliparthdjta.jpg"
+        "photo": "https://www.fasalkadaam.com/wp-content/uploads/2022/03/Potato.jpg"
+      },
+      {
+        "name": "Capsicum",
+        "price": "58",
+        "unit": "kg",
+        "category": "vegetable",
+        "photo": "https://www.bigbasket.com/media/uploads/p/l/50000479-2_1-fresho-capsicum-green-organically-grown.jpg"
+      },
+      {
+        "name": "Tomato",
+        "price": "32",
+        "unit": "kg",
+        "category": "vegetable",
+        "photo": "https://www.bigbasket.com/media/uploads/p/l/40130385_3-fresho-tomato-local-organically-grown.jpg"
+      },
+      {
+        "name": "Green Chilli",
+        "price": "60",
+        "unit": "kg",
+        "category": "vegetable",
+        "photo": "https://www.bigbasket.com/media/uploads/p/l/50000511_7-fresho-chilli-green-organically-grown.jpg"
+      },
+      {
+        "name": "Papaya",
+        "price": "36",
+        "unit": "pc",
+        "category": "vegetable",
+        "photo": "https://www.bigbasket.com/media/uploads/p/l/40022647_4-fresho-papaya-organically-grown.jpg"
+      },
+      {
+        "name": "Bottle Gourd",
+        "price": "33",
+        "unit": "pc",
+        "category": "vegetable",
+        "photo": "https://www.bigbasket.com/media/uploads/p/l/50000468_6-fresho-bottle-gourd-organically-grown.jpg"
+      },
+      {
+        "name": "Onion",
+        "price": "31",
+        "unit": "kg",
+        "category": "vegetable",
+        "photo": "https://www.bigbasket.com/media/uploads/p/l/40023472_5-fresho-onion-organically-grown.jpg"
       }
     ]
   }
