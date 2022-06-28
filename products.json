@@ -68,37 +68,37 @@
       },
 
       {
-        "name": "Britania",
-        "price": "12",
-        "unit": "packet",
+        "name": "Milk Bikis",
+        "price": "5",
+        "unit": "pack",
         "category": "biscuit",
         "photo": "https://www.suvidhasupermart.com/uploads/suvidha-supermart/products/britannia-milk-bikis-775567_m.jpg"
       },
 {
         "name": "Parle G",
         "price": "3",
-        "unit": "packet",
+        "unit": "pack",
         "category": "biscuit",
         "photo": "https://cdnprod.mafretailproxy.com/sys-master-root/h21/hde/29593544982558/427666_main.jpg_480Wx480H"
       },
 {
         "name": "Jim Jam",
-        "price": "12",
-        "unit": "packet",
+        "price": "10",
+        "unit": "pack",
         "category": "biscuit",
         "photo": "https://m.media-amazon.com/images/I/51sZt5maSaL.jpg"
       },
 {
         "name": "Bourbon",
-        "price": "12",
-        "unit": "packet",
+        "price": "15",
+        "unit": "pack",
         "category": "biscuit",
         "photo": "https://www.bigbasket.com/media/uploads/p/xxl/40114383_3-bonn-bourbon-cream-biscuits.jpg"
       },
 {
         "name": "Hide & Seek",
-        "price": "12",
-        "unit": "packet",
+        "price": "20",
+        "unit": "pack",
         "category": "biscuit",
         "photo": "https://5.imimg.com/data5/GX/LJ/MY-4620137/hide-and-seek-biscuits-500x500.jpg"
       },
