@@ -3,31 +3,32 @@
   "response_details": "Details",
   "response_data": {
     "product": [
-      {"id":"1",
+      {
+        "id": "1",
         "name": "Apple",
         "price": "120",
         "unit": "kg",
         "category": "fruit",
         "photo": "https://5.imimg.com/data5/AK/RA/MY-68428614/apple-250x250.jpg"
       },
-{
-"id":"2",
+      {
+        "id": "2",
         "name": "Grapes",
         "price": "100",
         "unit": "kg",
         "category": "fruit",
         "photo": "https://cf.ltkcdn.net/wine/images/std/165373-800x532r1-grapes.jpg"
       },
-{
-"id":"3",
+      {
+        "id": "3",
         "name": "Watermelon",
         "price": "40",
         "unit": "kg",
         "category": "fruit",
         "photo": "https://4.imimg.com/data4/IB/VC/ANDROID-56873828/product-500x500.jpeg"
       },
-{
-"id":"4",
+      {
+        "id": "4",
         "name": "Banana",
         "price": "60",
         "unit": "dozen",
@@ -35,80 +36,79 @@
         "photo": "https://images.heb.com/is/image/HEBGrocery/000377497"
       },
       {
-"id":"5",
+        "id": "5",
         "name": "Milk",
         "price": "22",
         "unit": "pack",
         "category": "milk",
         "photo": "https://toppng.com/uploads/preview/milk-png-11554019731zzc03ngzzv.png"
       },
-{
-"id":"6",
+      {
+        "id": "6",
         "name": "Cheese",
         "price": "220",
         "unit": "pack",
         "category": "milk",
         "photo": "https://frugivore-storage.s3.amazonaws.com/media/package/img_one/2020-08-14/Britannia_Pizza_Cheese_-_Block_200gm.jpg"
       },
-{
-"id":"7",
+      {
+        "id": "7",
         "name": "Butter",
         "price": "200",
         "unit": "kg",
         "category": "milk",
         "photo": "https://dailomart.com/wp-content/uploads/2020/09/amul-butter.png"
       },
-{
-"id":"8",
+      {
+        "id": "8",
         "name": "Ghee",
         "price": "200",
         "unit": "kg",
         "category": "milk",
         "photo": "https://www.bigbasket.com/media/uploads/p/xxl/40112229-2_3-fresho-organic-cow-desi-gheetuppa.jpg"
       },
-{
-"id":"9",
+      {
+        "id": "9",
         "name": "Paneer",
         "price": "200",
         "unit": "kg",
         "category": "milk",
         "photo": "https://5.imimg.com/data5/SELLER/Default/2020/12/RC/RP/LW/65519594/new-paneer4-1kg-front-500x500.jpg"
       },
-
       {
-"id":"10",
+        "id": "10",
         "name": "Milk Bikis",
         "price": "5",
         "unit": "pack",
         "category": "biscuit",
         "photo": "https://www.suvidhasupermart.com/uploads/suvidha-supermart/products/britannia-milk-bikis-775567_m.jpg"
       },
-{
-"id":"11",
+      {
+        "id": "11",
         "name": "Parle G",
         "price": "3",
         "unit": "pack",
         "category": "biscuit",
         "photo": "https://cdnprod.mafretailproxy.com/sys-master-root/h21/hde/29593544982558/427666_main.jpg_480Wx480H"
       },
-{
-"id":"12",
+      {
+        "id": "12",
         "name": "Jim Jam",
         "price": "10",
         "unit": "pack",
         "category": "biscuit",
         "photo": "https://m.media-amazon.com/images/I/51sZt5maSaL.jpg"
       },
-{
-"id":"13",
+      {
+        "id": "13",
         "name": "Bourbon",
         "price": "15",
         "unit": "pack",
         "category": "biscuit",
         "photo": "https://www.bigbasket.com/media/uploads/p/xxl/40114383_3-bonn-bourbon-cream-biscuits.jpg"
       },
-{
-"id":"14",
+      {
+        "id": "14",
         "name": "Hide & Seek",
         "price": "20",
         "unit": "pack",
@@ -116,7 +116,7 @@
         "photo": "https://5.imimg.com/data5/GX/LJ/MY-4620137/hide-and-seek-biscuits-500x500.jpg"
       },
       {
-"id":"15",
+        "id": "15",
         "name": "Potato",
         "price": "27",
         "unit": "kg",
@@ -124,7 +124,7 @@
         "photo": "https://5.imimg.com/data5/ANDROID/Default/2021/2/AZ/UZ/BR/93342038/potatoes-jpg-500x500.jpg"
       },
       {
-"id":"16",
+        "id": "16",
         "name": "Capsicum",
         "price": "58",
         "unit": "kg",
@@ -132,7 +132,7 @@
         "photo": "https://www.bigbasket.com/media/uploads/p/l/50000479-2_1-fresho-capsicum-green-organically-grown.jpg"
       },
       {
-"id":"17",
+        "id": "17",
         "name": "Tomato",
         "price": "32",
         "unit": "kg",
@@ -140,7 +140,7 @@
         "photo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg"
       },
       {
-"id":"18",
+        "id": "18",
         "name": "Green Chilli",
         "price": "60",
         "unit": "kg",
@@ -148,7 +148,7 @@
         "photo": "https://www.jiomart.com/images/product/original/590003533/green-chilli-200-g-product-images-o590003533-p590003533-0-202203150435.jpg"
       },
       {
-"id":"19",
+        "id": "19",
         "name": "Papaya",
         "price": "36",
         "unit": "pc",
@@ -156,7 +156,7 @@
         "photo": "https://5.imimg.com/data5/DM/BM/MY-46595757/papaya-281kg-29-500x500.png"
       },
       {
-"id":"20",
+        "id": "20",
         "name": "Bottle Gourd",
         "price": "33",
         "unit": "pc",
@@ -164,12 +164,84 @@
         "photo": "https://m.media-amazon.com/images/I/51-iuawxu4L._SL1036_.jpg"
       },
       {
-"id":"21",
+        "id": "21",
         "name": "Onion",
         "price": "31",
         "unit": "kg",
         "category": "vegetable",
         "photo": "https://www.freshpoint.com/wp-content/uploads/commodity-red-onion.jpg"
+      },
+      {
+        "id": "22",
+        "name": "Green Cardamom",
+        "price": "1000",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://5.imimg.com/data5/AD/BM/MY-3966004/green-cardamom-250x250.jpg"
+      },
+      {
+        "id": "23",
+        "name": "Black Pepper",
+        "price": "530",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/CM/WS/JY/92368/black-pepper-250x250.jpg"
+      },
+      {
+        "id": "24",
+        "name": "Turmeric",
+        "price": "130",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://3.imimg.com/data3/JR/WA/GLADMIN-69958/turmeric-finger-250x250.jpg"
+      },
+      {
+        "id": "25",
+        "name": "Mustard Seeds",
+        "price": "95",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/MY/FT/YU/92368/mustard-seeds-250x250.jpg"
+      },
+      {
+        "id": "26",
+        "name": "Cloves",
+        "price": "1000",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://3.imimg.com/data3/JC/RH/GLADMIN-113820/dry-cloves-250x250.jpg"
+      },
+      {
+        "id": "27",
+        "name": "Dalchini",
+        "price": "245",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/MU/QH/VE/91623/dalchini-250x250.jpg"
+      },
+      {
+        "id": "28",
+        "name": "Tamarind",
+        "price": "150",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/SV/RE/MR/92368/imli-250x250.png"
+      },
+      {
+        "id": "29",
+        "name": "Hing",
+        "price": "850",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://5.imimg.com/data5/SELLER/Default/2022/4/HM/RO/SO/632820/resham-hing-1000x1000.png"
+      },
+      {
+        "id": "30",
+        "name": "Kasuri Methi",
+        "price": "175",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://5.imimg.com/data5/SELLER/Default/2021/4/IO/CV/HV/126017160/kasuri-methi-250x250.jpg"
       }
     ]
   }
