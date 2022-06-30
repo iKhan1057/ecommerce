@@ -242,6 +242,54 @@
         "unit": "kg",
         "category": "spices",
         "photo": "https://5.imimg.com/data5/SELLER/Default/2021/4/IO/CV/HV/126017160/kasuri-methi-250x250.jpg"
+      },
+      {
+        "id": "31",
+        "name": "Sunflower Oil",
+        "price": "98",
+        "unit": "kg",
+        "category": "oil",
+        "photo": "https://4.imimg.com/data4/RR/JB/MY-19032682/sunflower-oil-250x250.jpg"
+      },
+      {
+        "id": "32",
+        "name": "Rice Oil",
+        "price": "160",
+        "unit": "kg",
+        "category": "oil",
+        "photo": "https://5.imimg.com/data5/SELLER/Default/2021/11/BE/SG/UA/33461103/jk-brand-rice-bran-oil-250x250.jpg"
+      },
+      {
+        "id": "33",
+        "name": "Vanaspati",
+        "price": "1300",
+        "unit": "kg",
+        "category": "oil",
+        "photo": "https://5.imimg.com/data5/LZ/ZD/SD/SELLER-43807588/shiva-vanaspati-250x250.jpg"
+      },
+      {
+        "id": "34",
+        "name": "Soyabean Oil",
+        "price": "280",
+        "unit": "kg",
+        "category": "oil",
+        "photo": "https://3.imimg.com/data3/NE/OA/MY-715258/kabira-rso-2-l-jar-250x250.jpg"
+      },
+      {
+        "id": "35",
+        "name": "Refine Sunflower Oil",
+        "price": "100",
+        "unit": "kg",
+        "category": "oil",
+        "photo": "https://5.imimg.com/data5/SELLER/Default/2021/2/SX/UC/MD/15754389/refine-sunflower-oil-250x250.jpg"
+      },
+      {
+        "id": "36",
+        "name": "Coconut Oil",
+        "price": "450",
+        "unit": "kg",
+        "category": "oil",
+        "photo": "https://5.imimg.com/data5/DI/OJ/LX/SELLER-43870616/coconut-oil-250x250.jpg"
       }
     ]
   }
