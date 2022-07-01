@@ -149,7 +149,7 @@
 {"id": "v72",   "name": "Turnip",                      "price": "98",       "unit": "kg",        "category": "vegitable",        "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/turnip_small.gif"},
 {"id": "v73",   "name": "Watercress",                  "price": "98",       "unit": "kg",        "category": "vegitable",        "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/watercress_small.gif"},
 {"id": "v74",   "name": "Yam Root",                    "price": "98",       "unit": "kg",        "category": "vegitable",        "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/yamroot_small.gif"},
-{"id": "v75",   "name": "Zucchini",                    "price": "98",       "unit": "kg",        "category": "vegitable",        "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/zucchini_small.gif"},
+{"id": "v75",   "name": "Zucchini",                    "price": "98",       "unit": "kg",        "category": "vegitable",        "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/zucchini_small.gif"}
     ]
   }
 }
