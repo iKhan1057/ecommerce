@@ -11,7 +11,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import com.ecommerceapp.R
+import com.ecommerceapp.component.AppButton
 import com.ecommerceapp.component.AppContent
+import com.ecommerceapp.navigation.AppScreenName
 
 @Composable
 fun SettingsScreen(navController: NavHostController) {
@@ -25,7 +27,9 @@ fun SettingsScreen(navController: NavHostController) {
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-
+                AppButton(buttonname = stringResource(id = R.string.changepwd)) {
+                    navController.navigate(AppScreenName.CHANGEPASSWORD.name)
+                }
             }
         }
     }

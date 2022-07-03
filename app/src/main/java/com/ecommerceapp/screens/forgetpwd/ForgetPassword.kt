@@ -1,35 +1,44 @@
 package com.ecommerceapp.screens.forgetpwd
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
+import android.widget.Toast
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.ecommerceapp.R
-import com.ecommerceapp.component.ScreenGreeting
+import com.ecommerceapp.component.*
 
 @Composable
 fun ForgetPasswordScreen(navController: NavHostController) {
-    Surface(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(all = 10.dp),
-        color = MaterialTheme.colors.background
+    AppComponentPreLogin(
+        navController = navController,
+        title = stringResource(id = R.string.forgetpwd)
     ) {
-        Column(
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            ScreenGreeting(name = stringResource(id = R.string.forgetpwd)) {
-                navController.popBackStack()
-            }
+        val context = LocalContext.current
+
+        val email = remember {
+            mutableStateOf("")
+        }
+        val isValid = remember {
+            email.value.isNotEmpty() && email.value.contains("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\$")
+        }
+
+        EmailInput(emailState = email)
+        AppButton(buttonname = stringResource(id = R.string.get_otp)) {
+            if (isValid)
+                Toast.makeText(
+                    context,
+                    "An OTP has been send to your registered email id.",
+                    Toast.LENGTH_LONG
+                ).show()
+            else
+                Toast.makeText(
+                    context,
+                    "Please enter a valid email.",
+                    Toast.LENGTH_LONG
+                ).show()
         }
     }
 }

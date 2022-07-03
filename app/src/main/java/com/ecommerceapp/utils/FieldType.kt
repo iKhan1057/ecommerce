@@ -1,0 +1,5 @@
+package com.ecommerceapp.utils
+
+enum class FieldType {
+    TEXT_ONLY,TEXT_EDIT,TEXT_DROPDOWN,TEXT_DATE,IMAGE,TEXT_SWITCH,TEXT_RADIO,TEXT_CHECKBOX
+}

@@ -1,5 +1,6 @@
 package com.ecommerceapp.screens.cms
 
+
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -12,6 +13,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import com.ecommerceapp.R
 import com.ecommerceapp.component.AppContent
+import com.ecommerceapp.component.loadWebUrl
+import com.ecommerceapp.utils.AppUtils
 
 @Composable
 fun ContactUsScreen(navController: NavHostController) {
@@ -25,7 +28,7 @@ fun ContactUsScreen(navController: NavHostController) {
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-
+                loadWebUrl(AppUtils.local_privacy_url)
             }
         }
     }
