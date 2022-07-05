@@ -4,7 +4,7 @@
   "response_data": {
     "product": [
       {
-        "id": "1",
+        "id": "f1",
         "name": "Acerola – West Indian Cherry",
         "price": "98",
         "unit": "kg",
@@ -12,7 +12,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/acerola_small.gif"
       },
       {
-        "id": "2",
+        "id": "f2",
         "name": "Apple",
         "price": "98",
         "unit": "kg",
@@ -20,7 +20,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/apple_small.gif"
       },
       {
-        "id": "3",
+        "id": "f3",
         "name": "Apricots",
         "price": "98",
         "unit": "kg",
@@ -28,7 +28,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/apricot_small.jpg"
       },
       {
-        "id": "4",
+        "id": "f4",
         "name": "Avocado",
         "price": "98",
         "unit": "kg",
@@ -36,7 +36,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/avocado_small.jpg"
       },
       {
-        "id": "5",
+        "id": "f5",
         "name": "Blueberries",
         "price": "98",
         "unit": "kg",
@@ -44,7 +44,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/blueberries_small.jpg"
       },
       {
-        "id": "6",
+        "id": "f6",
         "name": "Blackcurrant",
         "price": "98",
         "unit": "kg",
@@ -52,7 +52,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/blackcurrant_small.gif"
       },
       {
-        "id": "7",
+        "id": "f7",
         "name": "Blackberries",
         "price": "98",
         "unit": "kg",
@@ -60,7 +60,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2019/03/BlackberrySmall.jpg"
       },
       {
-        "id": "8",
+        "id": "f8",
         "name": "Banana",
         "price": "20",
         "unit": "dozen",
@@ -68,7 +68,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/banana_small.gif"
       },
       {
-        "id": "9",
+        "id": "f9",
         "name": "Breadfruit",
         "price": "200",
         "unit": "kg",
@@ -76,7 +76,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/breadfruit_small.gif"
       },
       {
-        "id": "10",
+        "id": "f10",
         "name": "Cantaloupe",
         "price": "200",
         "unit": "kg",
@@ -84,7 +84,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/cantaloupe_small.gif"
       },
       {
-        "id": "11",
+        "id": "f11",
         "name": "Carambola",
         "price": "200",
         "unit": "kg",
@@ -92,7 +92,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/carambola_small.jpg"
       },
       {
-        "id": "12",
+        "id": "f12",
         "name": "Cherimoya",
         "price": "200",
         "unit": "kg",
@@ -100,7 +100,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/cherimoya_small.gif"
       },
       {
-        "id": "13",
+        "id": "f13",
         "name": "Cherries",
         "price": "200",
         "unit": "kg",
@@ -108,7 +108,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/cherries_small.jpg"
       },
       {
-        "id": "14",
+        "id": "f14",
         "name": "Clementine",
         "price": "200",
         "unit": "kg",
@@ -116,7 +116,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/clementine_small.gif"
       },
       {
-        "id": "15",
+        "id": "f15",
         "name": "Coconut Meat",
         "price": "200",
         "unit": "kg",
@@ -124,7 +124,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/coconutmeat_small.gif"
       },
       {
-        "id": "16",
+        "id": "f16",
         "name": "Cranberries",
         "price": "200",
         "unit": "kg",
@@ -132,7 +132,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2017/03/Cranberriesforwebsite1.jpg"
       },
       {
-        "id": "17",
+        "id": "f17",
         "name": "Custard Apple",
         "price": "200",
         "unit": "kg",
@@ -140,7 +140,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/custardapple_small.gif"
       },
       {
-        "id": "18",
+        "id": "f18",
         "name": "Date Fruit",
         "price": "200",
         "unit": "kg",
@@ -148,7 +148,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/datefruit_small.gif"
       },
       {
-        "id": "19",
+        "id": "f19",
         "name": "Durian",
         "price": "200",
         "unit": "kg",
@@ -156,7 +156,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/durian_samll.gif"
       },
       {
-        "id": "20",
+        "id": "f20",
         "name": "Elderberries",
         "price": "200",
         "unit": "kg",
@@ -164,7 +164,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/elderberries_small.gif"
       },
       {
-        "id": "21",
+        "id": "f21",
         "name": "Feijoa",
         "price": "200",
         "unit": "kg",
@@ -172,7 +172,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/feijoa_small.gif"
       },
       {
-        "id": "22",
+        "id": "f22",
         "name": "Fig",
         "price": "200",
         "unit": "kg",
@@ -180,7 +180,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/fig_small.gif"
       },
       {
-        "id": "23",
+        "id": "f23",
         "name": "Loquat",
         "price": "200",
         "unit": "kg",
@@ -188,7 +188,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/loquat_small.gif"
       },
       {
-        "id": "24",
+        "id": "f24",
         "name": "Longan",
         "price": "200",
         "unit": "kg",
@@ -196,7 +196,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/longan_small.gif"
       },
       {
-        "id": "25",
+        "id": "f25",
         "name": "Green Lemon",
         "price": "200",
         "unit": "kg",
@@ -204,7 +204,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/07/iStock_000013736793_small.jpg"
       },
       {
-        "id": "26",
+        "id": "f26",
         "name": "Lemon",
         "price": "200",
         "unit": "kg",
@@ -212,7 +212,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/lemon_small.gif"
       },
       {
-        "id": "27",
+        "id": "f27",
         "name": "Kumquat",
         "price": "200",
         "unit": "kg",
@@ -220,7 +220,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/kumquat_small.gif"
       },
       {
-        "id": "28",
+        "id": "f28",
         "name": "Kiwifruit",
         "price": "200",
         "unit": "kg",
@@ -228,7 +228,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/kiwi_small.gif"
       },
       {
-        "id": "29",
+        "id": "f29",
         "name": "Jujube Fruit",
         "price": "200",
         "unit": "kg",
@@ -236,7 +236,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/jujube_small.gif"
       },
       {
-        "id": "30",
+        "id": "f30",
         "name": "Java-Plum",
         "price": "200",
         "unit": "kg",
@@ -244,7 +244,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/javplum_small.gif"
       },
       {
-        "id": "31",
+        "id": "f31",
         "name": "Jack Fruit",
         "price": "200",
         "unit": "kg",
@@ -252,7 +252,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/jackfruit_small.gif"
       },
       {
-        "id": "32",
+        "id": "f32",
         "name": "Honeydew Melon",
         "price": "200",
         "unit": "kg",
@@ -260,7 +260,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/honeydewmelon_small.gif"
       },
       {
-        "id": "33",
+        "id": "f33",
         "name": "Guava",
         "price": "200",
         "unit": "kg",
@@ -268,7 +268,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/guava_small.jpg"
       },
       {
-        "id": "34",
+        "id": "f34",
         "name": "Grapes",
         "price": "200",
         "unit": "kg",
@@ -276,7 +276,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/grapes_small.jpg"
       },
       {
-        "id": "35",
+        "id": "f35",
         "name": "Grapefruit",
         "price": "200",
         "unit": "kg",
@@ -284,7 +284,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/grapefruit_samll.gif"
       },
       {
-        "id": "36",
+        "id": "f36",
         "name": "Gooseberries",
         "price": "200",
         "unit": "kg",
@@ -292,7 +292,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/gooseberries_small.gif"
       },
       {
-        "id": "37",
+        "id": "f37",
         "name": "Lychee",
         "price": "200",
         "unit": "kg",
@@ -300,7 +300,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/lychee_small.gif"
       },
       {
-        "id": "38",
+        "id": "f38",
         "name": "Mandarin",
         "price": "200",
         "unit": "kg",
@@ -308,7 +308,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/mandarin_small.gif"
       },
       {
-        "id": "39",
+        "id": "f39",
         "name": "Mango",
         "price": "200",
         "unit": "kg",
@@ -316,7 +316,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/mango_small.gif"
       },
       {
-        "id": "40",
+        "id": "f40",
         "name": "Mangosteen",
         "price": "200",
         "unit": "kg",
@@ -324,7 +324,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/mangosteen_small.gif"
       },
       {
-        "id": "41",
+        "id": "f41",
         "name": "Mulberries",
         "price": "200",
         "unit": "kg",
@@ -332,7 +332,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/mulberries_small.gif"
       },
       {
-        "id": "42",
+        "id": "f42",
         "name": "Nectarine",
         "price": "200",
         "unit": "kg",
@@ -340,7 +340,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/nectarine_small.gif"
       },
       {
-        "id": "43",
+        "id": "f43",
         "name": "Olives",
         "price": "200",
         "unit": "kg",
@@ -348,7 +348,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/olives_small.gif"
       },
       {
-        "id": "44",
+        "id": "f44",
         "name": "Orange",
         "price": "200",
         "unit": "kg",
@@ -356,7 +356,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/orange_small.gif"
       },
       {
-        "id": "45",
+        "id": "f45",
         "name": "Papaya",
         "price": "200",
         "unit": "kg",
@@ -364,7 +364,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/papaya_small.gif"
       },
       {
-        "id": "46",
+        "id": "f46",
         "name": "Passion Fruit",
         "price": "200",
         "unit": "kg",
@@ -372,7 +372,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/passionfruit_small.jpg"
       },
       {
-        "id": "47",
+        "id": "f47",
         "name": "Peaches",
         "price": "200",
         "unit": "kg",
@@ -380,7 +380,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/peach_small.jpg"
       },
       {
-        "id": "48",
+        "id": "f48",
         "name": "Pear",
         "price": "200",
         "unit": "kg",
@@ -388,7 +388,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pear_small.jpg"
       },
       {
-        "id": "49",
+        "id": "f49",
         "name": "Persimmon",
         "price": "200",
         "unit": "kg",
@@ -396,7 +396,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/persimmon_small.gif"
       },
       {
-        "id": "50",
+        "id": "f50",
         "name": "Pitaya (Dragonfruit)",
         "price": "200",
         "unit": "kg",
@@ -404,7 +404,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2019/09/Dragon-Fruit-Small.jpg"
       },
       {
-        "id": "51",
+        "id": "f51",
         "name": "Pineapple",
         "price": "200",
         "unit": "kg",
@@ -412,7 +412,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pineapple_small.jpg"
       },
       {
-        "id": "52",
+        "id": "f52",
         "name": "Pitanga",
         "price": "200",
         "unit": "kg",
@@ -420,7 +420,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pitanga_small.gif"
       },
       {
-        "id": "53",
+        "id": "f53",
         "name": "Plantain",
         "price": "200",
         "unit": "kg",
@@ -428,7 +428,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/plantain_small.jpg"
       },
       {
-        "id": "54",
+        "id": "f54",
         "name": "Plums",
         "price": "200",
         "unit": "kg",
@@ -436,7 +436,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/plums_small.jpg"
       },
       {
-        "id": "55",
+        "id": "f55",
         "name": "Pomegranate",
         "price": "200",
         "unit": "kg",
@@ -444,7 +444,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pomegranate_small.jpg"
       },
       {
-        "id": "56",
+        "id": "f56",
         "name": "Prickly Pear",
         "price": "200",
         "unit": "kg",
@@ -452,7 +452,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2014/12/tiny-prickly-pear.jpg"
       },
       {
-        "id": "57",
+        "id": "f57",
         "name": "Prunes",
         "price": "200",
         "unit": "kg",
@@ -460,7 +460,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/prunes_small.gif"
       },
       {
-        "id": "58",
+        "id": "f58",
         "name": "Pummelo",
         "price": "200",
         "unit": "kg",
@@ -468,7 +468,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/pummelo_small.gif"
       },
       {
-        "id": "59",
+        "id": "f59",
         "name": "Quince",
         "price": "200",
         "unit": "kg",
@@ -476,7 +476,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/quince_small.gif"
       },
       {
-        "id": "60",
+        "id": "f60",
         "name": "Raspberries",
         "price": "200",
         "unit": "kg",
@@ -484,7 +484,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/raspberries_small.gif"
       },
       {
-        "id": "61",
+        "id": "f61",
         "name": "Rhubarb",
         "price": "200",
         "unit": "kg",
@@ -492,7 +492,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/rhubarb_small.gif"
       },
       {
-        "id": "62",
+        "id": "f62",
         "name": "Rose-Apple",
         "price": "200",
         "unit": "kg",
@@ -500,7 +500,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/roseapple_small.gif"
       },
       {
-        "id": "63",
+        "id": "f63",
         "name": "Sapodilla",
         "price": "200",
         "unit": "kg",
@@ -508,7 +508,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/sapodilla_small.gif"
       },
       {
-        "id": "64",
+        "id": "f64",
         "name": "Sapote, Mamey",
         "price": "200",
         "unit": "kg",
@@ -516,7 +516,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/sapote_small.gif"
       },
       {
-        "id": "65",
+        "id": "f65",
         "name": "Soursop",
         "price": "200",
         "unit": "kg",
@@ -524,7 +524,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/soursop_small.gif"
       },
       {
-        "id": "66",
+        "id": "f66",
         "name": "Strawberries",
         "price": "200",
         "unit": "kg",
@@ -532,7 +532,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/strawberries_small-e1426772485578.gif"
       },
       {
-        "id": "67",
+        "id": "f67",
         "name": "Sugar-Apple",
         "price": "200",
         "unit": "kg",
@@ -540,7 +540,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/sugarapple_small.gif"
       },
       {
-        "id": "68",
+        "id": "f68",
         "name": "Tamarind",
         "price": "200",
         "unit": "kg",
@@ -548,7 +548,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/tamarind_small.gif"
       },
       {
-        "id": "69",
+        "id": "f69",
         "name": "Tangerine",
         "price": "200",
         "unit": "kg",
@@ -556,7 +556,7 @@
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/tangerine_small.gif"
       },
       {
-        "id": "70",
+        "id": "f70",
         "name": "Watermelon ",
         "price": "200",
         "unit": "kg",
@@ -1162,6 +1162,326 @@
         "unit": "kg",
         "category": "vegitable",
         "photo": "https://halfyourplate-4kgxi1gvwldjzby.stackpathdns.com/wp-content/uploads/2015/01/zucchini_small.gif"
+      },
+      {
+        "id": "s1",
+        "name": "Turmeric",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Turmeric-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s2",
+        "name": "Saffron",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/saffron.png?w=840&ssl=1"
+      },
+      {
+        "id": "s3",
+        "name": "Garlic",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/garlic-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s4",
+        "name": "Cinnamon stick",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/cinnamon-stick-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s5",
+        "name": "Tamarind",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Tamarind-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s6",
+        "name": "Cardamom",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Cardamom.png?w=840&ssl=1"
+      },
+      {
+        "id": "s7",
+        "name": "Peppercorns",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Peppercorns-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s8",
+        "name": "Malabar leaf/bay leaf",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/bay-leaf.png?w=840&ssl=1"
+      },
+      {
+        "id": "s9",
+        "name": "Coriander",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/coriander-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s10",
+        "name": "Ginger",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/ginger-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s11",
+        "name": "Nutmeg",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Nutmeg-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s12",
+        "name": "Fenugreek",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Fenugreek-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s13",
+        "name": "Clove",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Clove-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s14",
+        "name": "Poppyseed",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Poppy-Seeds.png?w=840&ssl=1"
+      },
+      {
+        "id": "s15",
+        "name": "Caraway",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Caraway-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s16",
+        "name": "Mustard seed",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Mustard-seed-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s17",
+        "name": "Mentha piperita",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/peppermint.png?w=840&ssl=1"
+      },
+      {
+        "id": "s18",
+        "name": "Curry tree",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Curry-tree-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s19",
+        "name": "Cumin seed",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Cumin-seeds-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s20",
+        "name": "Asafoetida",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Asafoetida-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s21",
+        "name": "Fennel",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/Fennel-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s22",
+        "name": "Carom seed",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/carom-seed-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s23",
+        "name": "Black Cardamom",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Black-Cardamom-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s24",
+        "name": "Black Pepper",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Black-Pepper-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s25",
+        "name": "Coriander powder",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/coriander-powder-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s26",
+        "name": "Cubeb pepper",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/cubeb-pepper-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s27",
+        "name": "Dry coconut",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/dry-coconut-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s28",
+        "name": "Dry gooseberry",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/dry-gooseberry-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s29",
+        "name": "Fennel seeds",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/fennel.png?w=840&ssl=1"
+      },
+      {
+        "id": "s30",
+        "name": "Fenugreek seeds",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Fenugreek-seeds-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s31",
+        "name": "Licorice",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Licorice-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s32",
+        "name": "Nigella seeds",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Nigella-seeds-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s33",
+        "name": "Oregano",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Oregano-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s34",
+        "name": "Pine nuts",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Pine-nuts-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s35",
+        "name": "Red chili",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Red-chili-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s36",
+        "name": "Red chili powder",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Red-chili-powder-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s37",
+        "name": "Sichuan peppercorn ",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Sichuan-peppercorn-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s38",
+        "name": "Star Anise",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Star-Anise-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s39",
+        "name": "Turmeric powder",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/Turmeric-powder-min.png?w=840&ssl=1"
+      },
+      {
+        "id": "s40",
+        "name": "White Pepper",
+        "price": "98",
+        "unit": "kg",
+        "category": "spices",
+        "photo": "https://i0.wp.com/onlymyenglish.com/wp-content/uploads/White-Pepper-min.png?w=840&ssl=1"
       }
     ]
   }
