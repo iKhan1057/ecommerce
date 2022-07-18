@@ -27,4 +27,10 @@ interface AddressDao {
 
     @Query("Delete from tbl_address")
     suspend fun deleteAllAddress()
+
+    @Query("select * from tbl_address where address_name in ('Home','Office')")
+    fun getAddressByName():Flow<List<Address>>
+
+    @Query("select * from tbl_address where address_default =:defaultval")
+    fun getAddressByDefaultState(defaultval: Boolean): Flow<Address>
 }

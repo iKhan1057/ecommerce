@@ -38,12 +38,11 @@ fun SignInScreen(navController: NavHostController) {
             mutableStateOf(false)
         }
         val isValid = remember {
-            email.value.isNotEmpty()
-//                  &&  email.value.contains("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\$")
+            mutableStateOf(email.value.isNotEmpty()
                     && password.value.isNotEmpty()
-                    && password.value.length > 6
+                    && password.value.length > 6)
         }
-
+//                  &&  email.value.contains("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+\$")
         EmailInput(emailState = email)
 
         AppDivider()
@@ -57,14 +56,14 @@ fun SignInScreen(navController: NavHostController) {
         )
 
         AppButton(buttonname = stringResource(id = R.string.signin), modifier = Modifier.padding(5.dp)) {
-            if (isValid)
+//            if (isValid.value)
                navController.navigate(AppScreenName.HOME.name)
-            else
-                Toast.makeText(
-                    context,
-                    "Please enter a valid details.",
-                    Toast.LENGTH_LONG
-                ).show()
+//            else
+//                Toast.makeText(
+//                    context,
+//                    "Please enter a valid details.",
+//                    Toast.LENGTH_LONG
+//                ).show()
         }
 
         AppDivider()

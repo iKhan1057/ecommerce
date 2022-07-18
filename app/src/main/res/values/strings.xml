@@ -4,6 +4,7 @@
     <string name="signup_now">New USer Sign Up Now</string>
     <string name="signup">SignUp</string>
     <string name="signin">SignIn</string>
+    <string name="signin_now">Existing member SignIn</string>
     <string name="forgetpwd">Forgot Password</string>
 
     <string name="profile">Profile</string>

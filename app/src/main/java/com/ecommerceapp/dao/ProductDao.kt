@@ -22,4 +22,7 @@ interface ProductDao {
 
     @Update(onConflict = REPLACE)
     suspend fun updateProduct(product: HomeProduct)
+
+//    @Query("SELECT DISTINCT product_category FROM tbl_products")
+//    fun getCategoris(): Flow<List<HomeProduct>>
 }

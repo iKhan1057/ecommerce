@@ -12,10 +12,11 @@ import com.ecommerceapp.model.cart.CartProduct
 import com.ecommerceapp.model.products.HomeProduct
 import com.ecommerceapp.model.profile.Profile
 import com.ecommerceapp.utils.DateConverter
+import com.ecommerceapp.utils.ListToStringConverter
 import com.ecommerceapp.utils.UUIDConverter
 
 @Database(entities = [Address::class, CartProduct::class, HomeProduct::class, Profile::class], version = 1, exportSchema = false)
-@TypeConverters(DateConverter::class, UUIDConverter::class)
+@TypeConverters(DateConverter::class, UUIDConverter::class, ListToStringConverter::class)
 abstract class ECommerceDatabase : RoomDatabase() {
     abstract fun addressDao(): AddressDao
     abstract fun cartDao(): CartDao

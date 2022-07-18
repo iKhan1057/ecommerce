@@ -77,10 +77,19 @@ fun AppNavigation() {
         composable(
             route = AppScreenName.ADDEDITADDRESS.name + "/{addressId}", arguments = listOf(
                 navArgument(name = "addressId") {
+                    defaultValue = ""
+                    nullable = true
                     type = NavType.StringType
                 })
         ) { navBackStackEntry ->
-            AddOrEditAddressScreen(navController = navController,addressId = navBackStackEntry.arguments?.getString("addressId")!!)
+            AddOrEditAddressScreen(
+                navController = navController,
+                addressId = navBackStackEntry.arguments?.getString("addressId")!!
+            )
+        }
+
+        composable(route = AppScreenName.ADDEDITADDRESS.name) { navBackStackEntry ->
+            AddOrEditAddressScreen(navController = navController, addressId = null)
         }
 
         composable(route = AppScreenName.RATING.name) { navBackStackEntry ->

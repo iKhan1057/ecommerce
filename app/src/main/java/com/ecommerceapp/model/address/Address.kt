@@ -29,5 +29,7 @@ data class Address(
     @ColumnInfo(name = "userid")
     var userid: String = "",
     @ColumnInfo(name = "mobile")
-    var mobile: String = ""
+    var mobile: String = "",
+    @ColumnInfo(name = "address_default")
+    var address_default: Boolean = false
 )

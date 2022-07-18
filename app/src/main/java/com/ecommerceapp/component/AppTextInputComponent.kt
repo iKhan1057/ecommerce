@@ -1,18 +1,23 @@
 package com.ecommerceapp.component
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
 import com.ecommerceapp.utils.InputType.*
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
 import androidx.compose.material.ExposedDropdownMenuDefaults.textFieldColors
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.filled.ArrowDropUp
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
@@ -273,4 +278,73 @@ fun FeedbackInputField(
         keyboardOptions = KeyboardOptions(keyboardType = keyboardType, imeAction = imeAction),
         keyboardActions = onAction
     )
+}
+
+@Composable
+fun DropDown(
+    addresstypeState: MutableState<String>,
+    items: ArrayList<String>,
+    clickEnable: Boolean,
+    label: String = "",
+    selected: (String) -> Unit = {},
+) {
+    Surface(color = Color.Transparent) {
+        var expanded by remember { mutableStateOf(false) }
+        var selectedIndex by remember { mutableStateOf(0) }
+        var text by rememberSaveable { mutableStateOf("") }
+        val icon = if (expanded) Icons.Filled.ArrowDropUp else Icons.Filled.ArrowDropDown
+        val focusManager = LocalFocusManager.current
+
+        OutlinedTextField(
+            value = addresstypeState.value,
+            readOnly = true,
+            enabled = false,
+            onValueChange = { },
+            label = { Text(text = label) },
+            singleLine = true,
+            textStyle = TextStyle(
+                fontSize = 18.sp,
+                color = Color(0xFFEE1A0A)
+            ),
+            modifier = Modifier
+                .padding(bottom = 10.dp, start = 10.dp, end = 10.dp)
+                .fillMaxWidth()
+                .onFocusChanged { expanded = it.isFocused }
+                .clickable {
+                    if (clickEnable && items.size > 1) expanded = true
+                },
+
+            trailingIcon = { Icon(icon, null) }
+        )
+
+        DropdownMenu(
+            expanded = expanded,
+            onDismissRequest = {
+                expanded = false
+                focusManager.clearFocus()
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(
+                    MaterialTheme.colors.primary
+                )
+        ) {
+            items.forEachIndexed { index, s ->
+                DropdownMenuItem(onClick = {
+                    if (index != 0) {
+                        selected(s)
+                        addresstypeState.value = items[index]
+                    }
+                    expanded = false
+                    focusManager.clearFocus()
+                }) {
+                    Text(
+                        modifier = Modifier.fillMaxWidth(),
+                        text = s,
+                        color = MaterialTheme.colors.background
+                    )
+                }
+            }
+        }
+    }
 }

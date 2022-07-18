@@ -1,6 +1,5 @@
 package com.ecommerceapp.utils
 
-
 object AppUtils {
     const val BASE_URL: String = "https://raw.githubusercontent.com/"
     const val privacy_url = "https://demos.co.uk/privacy-policy/"

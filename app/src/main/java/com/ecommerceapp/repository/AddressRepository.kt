@@ -22,8 +22,15 @@ class AddressRepository @Inject constructor(private val addressDao: AddressDao) 
 
     suspend fun deleteAllAddress() = addressDao.deleteAllAddress()
 
-    fun getSingleAddress(id:UUID): Flow<Address> = addressDao.getAddressById(id)
+    fun getSingleAddress(id: UUID): Flow<Address> = addressDao.getAddressById(id)
 
     fun getAllAddress(): Flow<List<Address>> = addressDao.getAddressList().flowOn(Dispatchers.IO)
         .conflate()
+
+    fun getAddressByName(): Flow<List<Address>> =
+        addressDao.getAddressByName().flowOn(Dispatchers.IO).conflate()
+
+    fun getAddressByDefault(default:Boolean): Flow<Address> =
+        addressDao.getAddressByDefaultState(default).flowOn(Dispatchers.IO).conflate()
+
 }

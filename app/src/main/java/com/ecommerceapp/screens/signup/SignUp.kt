@@ -1,10 +1,13 @@
 package com.ecommerceapp.screens.signup
 
+import android.util.Log
 import android.widget.Toast
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material.Divider
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -14,8 +17,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.ecommerceapp.R
@@ -93,6 +103,8 @@ fun SignUpScreen(
             imeAction = ImeAction.Done
         )
         AppDivider()
+        TermsAndPrivacy(navController = navController)
+        AppDivider()
         AppButton(
             buttonname = stringResource(id = R.string.signup),
             modifier = Modifier.padding(5.dp)
@@ -110,7 +122,7 @@ fun SignUpScreen(
         }
         AppDivider()
         AppButton(
-            buttonname = stringResource(id = R.string.signin),
+            buttonname = stringResource(id = R.string.signin_now),
             modifier = Modifier.padding(5.dp)
         ) {
             navController.popBackStack()
@@ -126,4 +138,40 @@ fun SignUpScreen(
             }
         }
     }
+}
+
+
+@Composable
+fun TermsAndPrivacy(navController: NavHostController){
+    val annotatedString = buildAnnotatedString {
+        withStyle(style = SpanStyle(color = MaterialTheme.colors.primary)) {
+            append("By joining, you have read and agreed to our\n")
+        }
+
+        pushStringAnnotation(tag = "policy", annotation = "")
+        withStyle(style = SpanStyle(color = MaterialTheme.colors.primary, fontWeight = FontWeight.Bold)) {
+            append("Privacy Policy")
+        }
+        pop()
+
+        withStyle(style = SpanStyle(color = MaterialTheme.colors.primary)) {
+            append(" and ")
+        }
+
+        pushStringAnnotation(tag = "terms",annotation = "")
+        withStyle(style = SpanStyle(color = MaterialTheme.colors.primary, fontWeight = FontWeight.Bold)) {
+            append("Terms & Conditions.")
+        }
+        pop()
+    }
+
+    ClickableText(text = annotatedString, style = TextStyle(fontSize = 16.sp, textAlign = TextAlign.Center), modifier = Modifier.fillMaxWidth().padding(10.dp),onClick = { offset ->
+        annotatedString.getStringAnnotations(tag = "policy", start = offset, end = offset).firstOrNull()?.let {
+            navController.navigate(AppScreenName.PRIVACY_POLICY.name)
+        }
+
+        annotatedString.getStringAnnotations(tag = "terms", start = offset, end = offset).firstOrNull()?.let {
+            navController.navigate(AppScreenName.TERMS_AND_CONDITIONS.name)
+        }
+    })
 }

@@ -53,4 +53,25 @@ class AddressViewModel @Inject constructor(private val addressRepository: Addres
         return _address
     }
 
+    fun getAddressByName(): MutableStateFlow<List<Address>> {
+        val _address = MutableStateFlow<List<Address>>(emptyList())
+        viewModelScope.launch(Dispatchers.IO) {
+            addressRepository.getAddressByName().distinctUntilChanged().collect {
+                _address.value = it
+            }
+        }
+        return _address
+    }
+
+    fun getAddressByDefault(default: Boolean): MutableStateFlow<Address> {
+        val _address = MutableStateFlow(Address())
+        viewModelScope.launch(Dispatchers.IO) {
+            addressRepository.getAddressByDefault(default = default).distinctUntilChanged()
+                .collect {
+                    _address.value = it
+                }
+        }
+        return _address
+    }
+
 }
