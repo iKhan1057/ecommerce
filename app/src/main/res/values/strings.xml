@@ -52,4 +52,6 @@
     <string name="favcart">Favorite Cart</string>
     <string name="wallet">Wallet</string>
     <string name="verify_otp">OTP Verification</string>
+    <string name="primeuser">PRIME USER</string>
+    <string name="shownoti">SHOW NOTIFICATION</string>
 </resources>
